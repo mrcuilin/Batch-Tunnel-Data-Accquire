@@ -25,6 +25,6 @@ PyService文件运行了一个后台服务，用于自动在后台采集数据�
 这个后台服务由一个看门狗脚本Svc.sh监控，如果发现其失效退出，则会重新将其启动。Svc.sh可以被操作系统重复触发，例如/etc/crontab文件。涉及的文件也已经放在库里。<br>
 DB文件夹放了一个MySQL的数据库备份文件，其中包含了一些真实的实验数据。<br>
 
-
+Raspberry可以被配置成一个 WiFi热点以备连接，相关的配置可以参看我的另一个项目Batch-Fluided-Bed-Drying/Configurations
 
 
